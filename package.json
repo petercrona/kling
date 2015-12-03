@@ -1,0 +1,19 @@
+{
+  "name": "kling",
+  "version": "0.0.1",
+  "description": "Simple functional programming library",
+  "main": "kling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercrona/kling.git"
+  },
+  "author": "Peter Crona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petercrona/kling/issues"
+  },
+  "homepage": "https://github.com/petercrona/kling#readme"
+}
