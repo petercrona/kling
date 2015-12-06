@@ -2,7 +2,7 @@ var kling = module.exports = {};
 
 kling = loadCore();
 kling = loadDependent();
-kling = kling.fmap(injectAllDependencies, kling);
+kling.fmap(injectAllDependencies, kling);
 kling = curryAll();
 
 function loadCore() {

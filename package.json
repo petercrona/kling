@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/petercrona/kling.git"
   },
-  "author": "Peter Crona",
+  "author": {
+    "name": "Peter Crona"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/petercrona/kling/issues"
   },
-  "homepage": "https://github.com/petercrona/kling#readme"
+  "homepage": "https://github.com/petercrona/kling#readme",
+  "readme": "# kling\nJavaScript functional programming library (just created as a preparation for a meetup talk)\n",
+  "readmeFilename": "README.md",
+  "gitHead": "475bc9328b3169cb3bcf80fe75f8c8535e29e28b",
+  "_id": "kling@0.0.1",
+  "_shasum": "c19558664ab995fc842d5ea116c469a2ddfb819d",
+  "_from": "kling@*"
 }

@@ -1,7 +1,11 @@
 module.exports = compose;
 
 function compose() {
-    var fns = arguments;
+    var args = arguments;
+    var fns = [];
+    Object.keys(arguments).map(function(key) {
+        fns.push(args[key]);
+    });
 
     if (fns.length > 0) {
         return composeFunctions(fns);

@@ -20,14 +20,14 @@ function Maybe(result) {
 
     function ifJust(fn) {
         if (result !== undefined && result !== null) {
-            fn(result);
+            result = fn(result);
         }
         return this;
     }
 
     function ifNothing(fn) {
         if (result === undefined || result === null) {
-            fn();
+            result = fn();
         }
         return this;
     }
